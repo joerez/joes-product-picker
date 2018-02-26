@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import MyComponent from './my-component';
+import inventory, { categories } from './inventory'
+
+import Product from './components/product';
+import Category from './components/category';
 
 class App extends Component {
   render() {
@@ -10,18 +14,8 @@ class App extends Component {
 
 
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-
-
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-
-        <MyComponent title="Make School"/>
-        <MyComponent title="WOO-Hoo"/>
+        <Category />
+        <Product />
 
 
       </div>
