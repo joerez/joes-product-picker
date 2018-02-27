@@ -39,6 +39,12 @@
   height: 150px;
   width: 250px;
   margin: 20px;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.item:hover {
+  transform: rotate(-2deg) scale(1.2);
+  box-shadow: 0px 10px 40px rgba(0, 0, 0,.3);
 }
 
 .catebtn {
@@ -52,10 +58,10 @@
 
 .catebtn:hover {
 
-  background: #2c3e50;
+  background: #2980b9;
   color: white;
   border: solid 1px #2980b9;
   transform: rotate(2deg) scale(1.2);
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 10px rgba(52, 152, 219,.3);
 
 }
