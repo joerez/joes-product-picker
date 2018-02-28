@@ -14,9 +14,11 @@ class App extends Component {
 
 
       <div className="App">
+        <h1 className="title">Joes Product Picker</h1>
         <Category />
-        <Product />
-
+        <center>
+          <Product />
+        </center>
 
       </div>
     );

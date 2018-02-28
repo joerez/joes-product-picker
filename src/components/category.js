@@ -15,7 +15,7 @@ class category extends Component {
 
     const item = categories.map((item, index) => {
       return (
-      <button class="catebtn">{item}</button>
+      <button className="catebtn">{item}</button>
     )
  })
 
@@ -24,7 +24,7 @@ class category extends Component {
     return (
       <div className="buttons">
         {item}
-        <button class="catebtn">All</button>
+        <button className="catebtn">All</button>
       </div>
     )
   }

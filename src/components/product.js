@@ -6,7 +6,6 @@ class product extends Component {
   constructor(props) {
     super(props)
 
-
   }
 
 
