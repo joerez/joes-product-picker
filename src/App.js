@@ -5,21 +5,14 @@ import './App.css';
 import MyComponent from './my-component';
 import inventory, { categories } from './inventory'
 
-import Product from './components/product';
-import Category from './components/category';
+import Body from './components/body';
 
 class App extends Component {
   render() {
     return (
-
-
       <div className="App">
         <h1 className="title">Joes Product Picker</h1>
-        <Category />
-        <center>
-          <Product />
-        </center>
-
+        <Body />
       </div>
     );
   }
